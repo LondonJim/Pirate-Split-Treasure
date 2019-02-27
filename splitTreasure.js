@@ -27,11 +27,11 @@ class SplitTreasure {
   _checkOutcome(pirates, pirateTotals) {
     if (!!pirateTotals.reduce(function(a, b){ return (a === b) ? a : NaN; })) {
       console.log("Even Split Possible!")
-      console.log(this._showSplit(pirates))
+      this._showSplit(pirates)
       return true
     } else {
       console.log("Even Split not Possible!")
-      console.log(this._showSplit(pirates))
+      this._showSplit(pirates)
       return false
     }
   }
@@ -62,6 +62,5 @@ class SplitTreasure {
   }
 
 }
-
 
 module.exports = SplitTreasure
