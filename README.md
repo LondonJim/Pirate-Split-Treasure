@@ -6,7 +6,7 @@ Each gem are represented by an integer which represents its value (in your choic
 
 E.g. [4, 4, 4] represents three gems each of value 4
 
-The code takes the original array of gems and then sorts them from highest to lowest value. A new array is created with nested arrays representing each pirate . Gems are placed into these nested arrays one at time checking that the gems placed are going into the nested array with the lowest gem worth. Once all gems are placed the totals are checked and if they are all equal then an even split can occur.
+The code takes the original array of gems and then sorts them from highest to lowest value. A new array is created with nested arrays representing each pirate . Gems are placed into these nested arrays one at time checking that the gems placed are going into the nested array with the lowest gem worth. Once all gems are placed the totals are checked and if they are all of equal worth then an even split can occur.
 
 * refactoring still to take place as some functions can be reduced in size
 
@@ -44,6 +44,7 @@ true
 All tests are written using Mocha/Chai
 
 Run tests:
+
 `npm test`
 
 
