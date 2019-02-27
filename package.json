@@ -2,7 +2,7 @@
   "name": "split-treasure",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "splitTreasure.js",
   "scripts": {
     "test": "mocha"
   },
