@@ -3,7 +3,7 @@ var SplitTreasure = require('./splitTreasure')
 
 describe('SplitTreasure', () => {
 
-  before(() => {
+  beforeEach(() => {
     splitTreasure = new SplitTreasure
   })
 
